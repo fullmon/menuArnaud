@@ -1,0 +1,14 @@
+body{ background-color:grey;}
+
+#menuHaut{ background-color:black; width:100%; height:70px; font-family:Arial, Helvetica, sans-serif; color:white; position:absolute; z-index:20;}
+#logo{ width:25%; height:70px; float:left;}
+#autre{ width:75%; height:40px;}
+#menuHaut ul{ list-style:none;}
+#menuHaut ul li{ display:block; float:left; width:140px; height:30px;}
+#menuHaut a{ text-decoration:none; color:white; font-weight:bold; display:block; height:30px; width:140px; text-align:center; line-height:30px;}
+
+.sousMenu{ background-color:white; border-right: 0px solid black; border-left: 0px solid black; border-bottom: 0px solid black; width:700px; height:0px; left:300px; overflow:hidden; text-align:center; line-height:100px; position:absolute; top:70px; z-index:15;}
+#voile{ position:absolute; top:0; left:0; background-image:url(bg.png); width:100%; height:100%; z-index:10; display:none;}
+#contenu{ position:absolute; top:70px; z-index:5;}
+
+#ie6{color:red;}
