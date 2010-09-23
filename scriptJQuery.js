@@ -9,9 +9,7 @@ $(window).ready(function(){
                 'color': 'black',
             },500);
             
-            $('.sousMenu:eq('+i+')').stop(true,false).animate({
-                height : '100px',
-            },500).css({'overflow':'visible'});
+            $('.sousMenu:eq('+i+')').stop(true,false).slideDown(500);
             
             $('#voile').stop(true,false).fadeIn(500);
             
@@ -25,9 +23,7 @@ $(window).ready(function(){
                 'color':'white',
             });
             
-            $('.sousMenu:eq('+i+')').stop(true,false).animate({
-                height : '0px',
-            },500);
+            $('.sousMenu:eq('+i+')').stop(true,false).slideUp(500);
             
             $('#voile').stop(true,false).fadeOut(500);
             
