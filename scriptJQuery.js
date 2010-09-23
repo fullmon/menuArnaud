@@ -16,17 +16,7 @@ $(window).ready(function(){
             $('#voile').stop(true,false).fadeIn(500);
             
         });
-        /*
-        $('#sousMenus .sousMenu:eq('+i+')').mouseover(function(){
-                $('#sousMenus .sousMenu:eq('+i+')').css({'display':'block'});
-                $('#menuHaut ul li a:eq('+i+')').css({
-                    'background-color':'white',
-                    'color':'black',
-                });
-                $('#voile').css({
-                    'display':'block',
-                });
-        });*/
+
        
         $('#menuHaut ul li:eq('+i+')').mouseleave(function(){
             
@@ -42,17 +32,7 @@ $(window).ready(function(){
             $('#voile').stop(true,false).fadeOut(500);
             
         });
-        /*
-        $('#sousMenus .sousMenu:eq('+i+')').mouseout(function(){
-            $('#sousMenus .sousMenu:eq('+i+')').stop(true,true).animate({
-                height : '0px',
-            },500);
-            $('#menuHaut ul li a:eq('+i+')').stop(true,true).animate({
-                    'background-color':'black',
-                    'color':'white',
-            },500);
-            $('#voile').stop(true,true).fadeOut(500);
-        });*/
+
         
     });
     
