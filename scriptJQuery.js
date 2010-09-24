@@ -11,7 +11,7 @@ $(window).ready(function(){
             
             $('.sousMenu:eq('+i+')').stop(true,true).slideDown(500);
             
-            $('#voile').stop(true,true).fadeIn(500);
+            $('#voile').stop(true,false).fadeIn(500);
             
         });
 
@@ -25,7 +25,7 @@ $(window).ready(function(){
             
             $('.sousMenu:eq('+i+')').stop(true,true).slideUp(500);
             
-            $('#voile').stop(true,true).fadeOut(500);
+            $('#voile').stop(true,false).fadeOut(500);
             
         });
 
